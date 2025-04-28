@@ -1,12 +1,12 @@
-import logo from "../../src/assets/img/omar.png";
-import omarfaruk from "../../src/assets/img/hourglass.jpg";
+import NavBanner from "./Navbar/NavBanner";
+import ThereSection from "./Pages/thereSection";
+
 
 const Home = () => {
   return (
-    <div>
-      <h1>This is home</h1>
-      <img className="w-28 h-28" src={logo} alt="" />
-      <img src={omarfaruk} alt="" />
+    <div className='min-h-auto'>
+     <NavBanner></NavBanner>
+     <ThereSection></ThereSection>
     </div>
   );
 };

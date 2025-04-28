@@ -13,14 +13,15 @@ const Navber = () => {
     
     </>
     return (
-     <div className='md:mx-10'>
+     <div className="">
+      <div className='md:mx-10 '>
            <div className="navbar bg-base-100  ">
         <div className="navbar-start">
           <div className="dropdown">
            
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 md:mt-3 w-52 md:p-2 shadow">
+              className="menu menu-sm dropdown-content bg-gray-100 rounded-box z-1 md:mt-3 w-52 md:p-2 ">
               
               {links}
             </ul>
@@ -39,6 +40,7 @@ const Navber = () => {
           </div>
         </div>
       </div>
+     </div>
      </div>
     );
 };

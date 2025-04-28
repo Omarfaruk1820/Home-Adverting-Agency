@@ -6,7 +6,7 @@ import logo from "../../assets/img/omar.png"
 
 const Footer = () => {
     return (
-        <div>
+        <div className='mt-[30px]'>
          <footer className="footer sm:footer-horizontal bg-neutral justify-evenly text-white grid-rows-1 p-10">
          <nav className='text-white   '>
           <h6 className="footer-title text-white footer-vertical">Social</h6>
