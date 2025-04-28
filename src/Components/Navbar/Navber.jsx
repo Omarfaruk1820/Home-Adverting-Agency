@@ -35,7 +35,7 @@ const Navber = () => {
         <div className="navbar-end ">
           <div className='md:flex hidden sm:inline-block '>
           <p className='mt-2'>Let's Talk</p>
-          <a className="btn btn-dash btn-secondary md:none">01400188860</a>
+          <a className="btn btn-dash btn-secondary md:none">0140018886011111</a>
           </div>
         </div>
       </div>
