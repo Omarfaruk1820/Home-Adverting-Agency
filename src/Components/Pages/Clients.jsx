@@ -9,7 +9,7 @@ import grameenPhone from "../../assets/img/walton (1).png"
 import walton from "../../assets/img/walton (2).png"
 const Clients = () => {
     return (
-      <div className='bg-gray-100'>
+      <div className='bg-gray-100 mt-10'>
         <p className='font-bold text-xl text-center'>Our Happy Clients</p>
          <div className='grid grid-cols-4 gap-5 space-y-10 mt-10 justify-center md:ml-36 items-center '>
           <div className='flex'>
