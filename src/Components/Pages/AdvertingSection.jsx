@@ -6,8 +6,8 @@ const AdvertingSection = () => {
     return (
       <div className='bg-gray-100'>
           <div className='grid grid-cols-3 gap-2'>
-           <div className='col-span-1 mt-20 border-2 border-red-500 text-center'>What we do</div>
-           <div className='col-span-2 border-green-300 border-2'>
+           <div className='col-span-1 mt-20 text-center text-xl font-bold'>What we do</div>
+           <div className='col-span-2 '>
          <div className='space-y-2'>
          <h1 className='mt-20 font-semibold text-5xl'>Adverting Sulations</h1>
           <p>Lorem ipsum dolor sit, amet consectetur elit. Ut natus   iure iste<br></br>
@@ -15,7 +15,7 @@ const AdvertingSection = () => {
             quae totam quas soluta vel quis saepe.</p>
          </div>
             <div className='grid grid-cols-2'>
-                <div className='border-yellow-300 border w-full'>
+                <div className='w-full'>
                   <div className='space-y-2 mt-3'>
                   <p className=' text-blue-400 text-3xl'><FaPaintBrush /></p>
                 <h1 className='text-2xl font-bold'>Creative Advertising</h1>
@@ -32,7 +32,7 @@ const AdvertingSection = () => {
                  </div>
                  
                 </div>
-                <div className='border border-gray-200 w-full'>
+                <div className=' w-full'>
                    
                    <div className='space-y-2 mt-3'>
                    <p className=' text-blue-400 text-3xl'><FaTachographDigital /></p>
