@@ -10,7 +10,7 @@ const CaseStudySection = () => {
           <h1 className='text-center text-xl font-bold'>Case Studies</h1> 
           <p className='text-center text-4xl font-bold'>Happy Clients Story</p> 
           <div className='grid gap-5 mt-10  grid-cols-2'>
-            <div className='border-2 border-green-400 ml-20 mr-10' >
+            <div className=' ml-20 mr-10' >
                 <p className='text-xl font-medium text-blue-500'>01.</p>
                 <p className='text-2xl font-bold mt-2 mb-2'>Culeet Skincare</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus 
@@ -28,10 +28,10 @@ const CaseStudySection = () => {
                         <button className='btn btn-secondary'>READ CASE STUDY <   MdKeyboardDoubleArrowRight /></button>
                      </div>
                      <div>
-                        <img className='w-[400px] h-[300px]'  src={Syltiswoman} alt="" />
+                        <img className='w-[400px] h-[300px] mt-5'  src={Syltiswoman} alt="" />
                      </div>
             </div>
-            <div className='border-2 border-yellow-400'>
+            <div className=' '>
                 <img className='w-[400px] h-[250px]' src={skinecare} alt="" />
                 <div className='mt-10 '>
                     <p className='text-xl font-medium text-blue-500'>02.</p>
