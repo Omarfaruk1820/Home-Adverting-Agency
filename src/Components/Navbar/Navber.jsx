@@ -1,5 +1,6 @@
 import { NavLink } from "react-router-dom";
-import officeLogo from "../../assets/img/omar.png"
+// import officeLogo from "../../assets/img/omar.png"
+import logoOffice from "../../assets/img/omar.png"
 
 const Navber = () => {
     const links=<>
@@ -14,7 +15,7 @@ const Navber = () => {
     </>
     return (
      <div className="">
-      <div className='md:mx-10 '>
+      <div className=' '>
            <div className="navbar bg-base-100  ">
         <div className="navbar-start">
           <div className="dropdown">
@@ -26,7 +27,7 @@ const Navber = () => {
               {links}
             </ul>
           </div>
-         <img className='w-8 h-8 md:ml-10' src={officeLogo} alt="" />
+         <img className='w-8 h-8 md:ml-10' src={logoOffice} alt="" />
         </div>
         <div className="navbar-center  lg:flex">
           <ul className="menu menu-horizontal px-1">

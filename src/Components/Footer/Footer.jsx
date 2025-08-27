@@ -2,7 +2,7 @@ import { FaTwitter } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa6";
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
-import logo from "../../assets/img/omar.png"
+import officelogo from "../../assets/img/omar.png"
 
 const Footer = () => {
     return (
@@ -47,19 +47,11 @@ const Footer = () => {
       <div className= 'underline border border-amber-100'></div>
       <footer className="footer sm:footer-horizontal footer-center bg-neutral text-neutral-content items-center p-4">
   <aside className="grid-flow-col items-center">
-  <img className='w-8 h-8' src={logo} alt="" />
+  <img className='w-8 h-8' src={officelogo} alt="" />
     <p>Copyright © {new Date().getFullYear()} - All right reserved by ACME Industries Ltd</p>
   </aside>
 </footer>
-      {/* <footer className="footer sm:footer-horizontal text-align-center bg-neutral text-neutral-content items-center p-4">
-  <aside className="grid-flow-col items-center">
-   
-    <img className='w-10 h-10' src={logo} alt="" />
-    <p>Copyright © {new Date().getFullYear()} - All right reserved</p>
-  </aside>
-  
-</footer> */}
-       </div>
+      </div>
     );
 };
 
