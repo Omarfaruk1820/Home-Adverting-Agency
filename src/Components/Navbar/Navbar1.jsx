@@ -4,12 +4,12 @@ import { Menu, X } from "lucide-react";
 import logonew from "../../assets/img/omar.png"
 
 const navItems = [
-  { name: "Work ", href: "#hero" },
-  { name: "Service", href: "#about" },
-  { name: " Casestudies", href: "#skills" },
-  { name: "About", href: "#projects" },
+  { name: "Work ", href: "#home" },
+  { name: "Service", href: "#Service" },
+  { name: " Casestudies", href: "#Casestudies" },
+  { name: "About", href: "#about" },
   { name: "Contact", href: "#contact" },
-  { name: "Login", href: "#contact" },
+  { name: "Login", href: "#login" },
 ];
 const Navbar1 = () => {
 

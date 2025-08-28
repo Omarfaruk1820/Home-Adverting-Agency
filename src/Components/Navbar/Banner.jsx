@@ -1,4 +1,5 @@
 import { FaLongArrowAltDown } from "react-icons/fa";
+import { NavLink } from "react-router-dom";
 
 const Banner = () => {
   return (
@@ -11,12 +12,14 @@ const Banner = () => {
           A Leading Adverting<br></br> Agency in san fransisco{" "}
         </h1>
         <p>congure consecteture sapien pellentesqure altrices tempus nunc.</p>
-        <button className="btn btn-secondary p-2 mt-5">
+    <NavLink to="/service">
+            <button className="btn cosmic-button p-2 mt-5">
           {" "}
           LEARN MORE
           
           <FaLongArrowAltDown></FaLongArrowAltDown>
         </button>
+    </NavLink>
       </div>
     </section>
   );

@@ -1,4 +1,4 @@
-// import NavBanner from "./Navbar/NavBanner";
+
 import Banner from "./Navbar/Banner";
 import AdvertingSection from "./Pages/AdvertingSection";
 import Blog from "./Pages/Blog";
@@ -11,7 +11,7 @@ import ThereSection from "./Pages/thereSection";
 const Home = () => {
   return (
     <div className='min-h-auto'>
-     {/* <NavBanner></NavBanner> */}
+ 
      <Banner></Banner>
      <ThereSection></ThereSection>
      <AdvertingSection></AdvertingSection>
